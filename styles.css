@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/* general components */
+
+body {
+  margin-top: 52px;
+}
+
+h1 {
+  font-family: 'Quattrocento Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+  
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Quattrocento Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+
+p.body-one{
+  font-family: 'Quattrocento Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  overflow-wrap: break-word; 
+  color: #000000;
+}
+
+p.body-two, li {
+  font-family: 'Quattrocento Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  overflow-wrap: break-word; 
+  color: #000000;
+  line-height: 24px;
+
+}
+
+.hyperlink {
+  text-decoration-line: underline;
+  background: #0090F6;
+}
+
+.wrapper {
+  max-width: 630px;
+  margin: 0px auto;
+}
+
+div.desc {
+  margin: 24px 0px 12px;
+}
+
+.desc > * {
+  margin: 12px 0px;
+}
+/* nav bar */
+
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Quattrocento Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  /* text-transform: uppercase; */
+  color: #4D4D4D;
+}
+
+nav li {
+  padding: 8px 0px;
+  flex: 1;
+  text-align: center;
+}
+
+/* nav selected */
+nav li.selected {
+  background: #0090F6;
+  pointer-events: none;
+}
+
+nav li.selected > *{
+  color: #F2F2F2;
+}
+
+/* nav hover */
+nav li:hover {
+  border-bottom: 2.5px solid #0090F6;
+}
+
+
+/* footer */
+
+/* social media */
+
+.social-bar {
+  width: 120px;
+  height: 14.36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+img.social {
+  width: 14.34px;
+  height: 14.36px;
+  
+}
+
+
+/* home page */
+
+.about-me {
+  width: 460px;
+  height: 410px;
+  margin: 46px auto;
+}
+
+.about-me > * {
+  margin: 24px 0px;
+  text-align: center;
+
+}
+
+
+.profile-pic {
+  box-sizing: border-box;
+  display: block;
+
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 118.586px;
+}
+
+/* learning page */
+
+.learning-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 24px;
+  gap: 10px;
+
+  background: #E7F5FE;
+  margin: 12px 0px;
+}
+
+.learning-section > * {
+  flex: 1;
+
+}
+
+.learning-list {
+  flex-grow: 5;
+}
+
+
+.date {
+  text-align: right;
+}
+
+/* contact */
+
+.contact {
+  background: #E7F5FE;
+  padding: 24px;
+  margin-bottom: 36px;
+}
+
+/* project */
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.project-section {
+  width: 305px;
+}
+
+.project-content {
+  height: 305px;
+  width: 305px;
+  background: #E7F5FE;
+}
+
+
+
+
+
+
+
+
+
